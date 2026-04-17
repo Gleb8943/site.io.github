@@ -1,0 +1,257 @@
+.teles{
+  display: flex;
+  justify-content: space-around;
+  background: rgb(143, 137, 137);
+  margin-bottom: 24px;
+  position: absolute;
+  top:-9px;
+  right: 0;
+  left: 0;
+  width: 100%;
+ }
+
+ 
+h2{
+  font-family: "Open Sans"; 
+ }
+
+
+ @media (max-width: 600px){
+  .teles{
+    flex-direction: column;
+  }
+ }
+
+
+ .hem:hover{
+  color: white;
+ }
+
+
+ .relo:hover{
+  color: white;
+ }
+
+
+ .vem:hover{
+  color: white;
+ }
+
+
+ .repolt{
+  animation: none;
+  width: 250px;
+  height: 50px;
+  position: relative;
+  top: 15px;
+  border-radius: 14px;
+ }
+
+
+ .nelot{
+  animation: none;
+  width: 400px;
+  height: 50px;
+  position: relative;
+  top: 15px;
+  border-radius: 25px;
+  }
+
+
+  .rule{
+    animation: none;
+  }
+
+
+
+
+
+ .helu{
+   display: block;
+   text-align: center;
+   margin-top: 100px;
+
+ }
+
+
+ .form-group{
+display: block;
+margin-bottom: 15px;
+ }
+
+ .remoper{
+  position: relative;
+  top: -700px;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Fira Sans";
+  color: rgb(27, 25, 25);
+ }
+
+
+ 
+
+
+
+ .butt{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   height: 150px;
+   margin-top: 95px;
+ }
+
+
+ button:hover{
+    background: rgb(85, 83, 83);
+    color: white;
+
+ }
+
+
+ .butto:hover{
+    background: green;
+    color: white;
+  }
+
+
+  button{
+  animation: pulse 2s infinite;
+  font-family:"Open Sans";
+ }
+
+
+ .button{
+  animation: none;
+ }
+
+
+ @keyframes pulse{
+  50% {transform: scale(2)}
+ }
+
+
+
+
+
+ .holunt{
+  animation: none;
+  width: 250px;
+  height: 65px;
+ }
+
+
+ .products{
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+   gap: 450px;
+   margin-top: 24px;
+ }
+
+
+ p{
+  font-family: "Open Sans";
+  font-weight: bold;
+ }
+
+
+ .product-card{
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+   border: 1px solid color #ccc;
+   padding: 10px;
+ }
+
+
+ .product-content{
+   flex-grow: 1;
+ }
+
+
+ .product-actions{
+   display: flex;
+   justify-content: space-between;
+   margin-top: auto;
+   }
+
+
+   .cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+ }
+
+
+ .card{
+    border: none;
+    border-radius: 25px;
+    font-size: 50px;
+  }
+
+
+  .butto{
+  animation: none;
+ }
+
+ @keyframes pulse{
+  50% {transform: scale(2)}
+ }
+
+
+ .button:hover{
+    background: orange;
+    color: white;
+  }
+
+
+  .tel{
+  display: flex;
+  Justify-content: space-around;
+  background: rgb(78, 76, 76);
+  margin-top: 2400px;
+  padding: 14px;
+  position: absolute;
+  top: 9px;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 35%;
+ }
+
+
+ .femonet{
+  display: flex;
+  Justify-content: space-around;
+  padding: 32px;
+  position: relative;
+  top: 9px;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 35%;
+  transform: translateY(50%);
+ }
+
+ .hemon:hover{
+  color: white;
+ }
+
+
+ .relon:hover{
+  color: white;
+ }
+
+
+ .vemol:hover{
+  color: white;
+ }
+
+
+  @media (max-width: 600px){
+  .tel{
+    flex-direction: column;
+  }
+ }
