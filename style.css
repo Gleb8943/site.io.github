@@ -10,12 +10,12 @@
   width: 100%;
  }
 
- 
-h2{
-  font-family: "Open Sans"; 
+
+ h2{
+  font-family:"Open Sans";
  }
 
-
+ 
  @media (max-width: 600px){
   .teles{
     flex-direction: column;
@@ -38,16 +38,6 @@ h2{
  }
 
 
- .repolt{
-  animation: none;
-  width: 250px;
-  height: 50px;
-  position: relative;
-  top: 15px;
-  border-radius: 14px;
- }
-
-
  .nelot{
   animation: none;
   width: 400px;
@@ -58,12 +48,17 @@ h2{
   }
 
 
-  .rule{
-    animation: none;
-  }
+ .repolt{
+  animation: none;
+  width: 250px;
+  height: 50px;
+  position: relative;
+  top: 15px;
+  border-radius: 14px;
+ }
 
 
-
+ 
 
 
  .helu{
@@ -74,72 +69,67 @@ h2{
  }
 
 
- .form-group{
-display: block;
-margin-bottom: 15px;
+ .butt{
+   position: absolute;
+   top: 35%;
+   left: 45%;
+   height: 150px;
+   margin-top: 95px;
+   width: 200px;
+   height: 50px;
+   border-radius: 27px;
  }
-
- .remoper{
-  position: relative;
-  top: -700px;
-  text-align: center;
-  font-size: 35px;
-  font-family: "Fira Sans";
-  color: rgb(27, 25, 25);
- }
-
-
- 
-
 
 
  .butt{
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   height: 150px;
-   margin-top: 95px;
+  animation: pulse 2s infinite;
+  font-family:"Open Sans";
  }
 
 
- button:hover{
+ .butt:hover{
     background: rgb(85, 83, 83);
     color: white;
 
  }
 
 
- .butto:hover{
-    background: green;
-    color: white;
-  }
-
-
-  button{
-  animation: pulse 2s infinite;
-  font-family:"Open Sans";
- }
-
-
- .button{
-  animation: none;
- }
-
-
- @keyframes pulse{
+  @keyframes pulse{
   50% {transform: scale(2)}
  }
 
 
-
-
-
- .holunt{
-  animation: none;
-  width: 250px;
-  height: 65px;
+ .imgr{
+  border-radius: 50px;
  }
+
+
+ .btn{
+  animation: none;
+ }
+
+
+ .remoper{
+  position: relative;
+  top: -740px;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Fira Sans";
+ }
+
+
+ .rule{
+    animation: none;
+  }
+
+
+ .form-group{
+display: block;
+margin-bottom: 15px;
+ }
+
+
+
 
 
  .products{
@@ -147,12 +137,6 @@ margin-bottom: 15px;
    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
    gap: 450px;
    margin-top: 24px;
- }
-
-
- p{
-  font-family: "Open Sans";
-  font-weight: bold;
  }
 
 
@@ -170,25 +154,33 @@ margin-bottom: 15px;
  }
 
 
- .product-actions{
+  p{
+  font-family: "Open Sans";
+  font-weight: bold;
+ }
+
+
+  .product-actions{
    display: flex;
    justify-content: space-between;
    margin-top: auto;
    }
 
 
-   .cards{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: center;
+  .buttone:hover{
+    background: orange;
+    color: white;
+  }
+
+
+  .buttone{
+  animation: none;
  }
 
 
- .card{
-    border: none;
-    border-radius: 25px;
-    font-size: 50px;
+  .butto:hover{
+    background: green;
+    color: white;
   }
 
 
@@ -196,22 +188,30 @@ margin-bottom: 15px;
   animation: none;
  }
 
- @keyframes pulse{
-  50% {transform: scale(2)}
+
+  .cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
  }
 
 
- .button:hover{
-    background: orange;
-    color: white;
+  .card{
+    border: none;
+    border-radius: 25px;
+    font-size: 50px;
   }
+
+
+ 
 
 
   .tel{
   display: flex;
   Justify-content: space-around;
   background: rgb(78, 76, 76);
-  margin-top: 2400px;
+  margin-top: 2500px;
   padding: 14px;
   position: absolute;
   top: 9px;
@@ -235,6 +235,7 @@ margin-bottom: 15px;
   transform: translateY(50%);
  }
 
+ 
  .hemon:hover{
   color: white;
  }
