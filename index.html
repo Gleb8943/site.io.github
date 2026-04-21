@@ -10,12 +10,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&display=swap');
 
 
-body { font-family: 'Open Sans', sans-serif; margin:20px; }
-
-
 .slider-wrap {
   width: 600px;               
-  margin: 20px auto;          
+  margin: 60px auto;          
   pointer-events: auto;
 }
 .slider {
@@ -71,10 +68,10 @@ body { font-family: 'Open Sans', sans-serif; margin:20px; }
     <header>
         <nav>
         <div class="teles">
-                              <div class="renot"><h2><p>Телескопиум</p></h2></div>                                        
-                                <div class="hem"><h2><p>Главная</p></h2></div>         
-                                <div class="relo"><h2><p>Товары</p></h2></div>            
-                                <div class="vem"><h2><p>О нас</p></h2></div>
+                              <div class="renot"><h2>Телескопиум</h2></div>                                        
+                                <div class="hem"><h2>Главная</h2></div>         
+                                <div class="relo"><h2>Товары</h2></div>            
+                                <div class="vem"><h2>О нас</h2></div>
                                 <style>
                                     .dark{
                                         background: rgb(3, 2, 43);
@@ -96,11 +93,11 @@ body { font-family: 'Open Sans', sans-serif; margin:20px; }
 
     <main>
         <div class="helu">
-            <div class="butt"><button style="width: 200px; height: 50px; border-radius:27px;">Подробнее</button></div>
-        <img src="https://avatars.mds.yandex.net/get-mpic/7728649/img_id3626427085108873368.jpeg/orig" style="border-radius: 45px">
+          <button class="butt">Подробнее</button>
+            <img class="imgr"src="https://avatars.mds.yandex.net/get-mpic/7728649/img_id3626427085108873368.jpeg/orig">
         </div>
 
-        >
+        
         <div class="slider-wrap" aria-label="Image slider">
           <div class="slider" id="slider">
             <div class="track" id="track">
@@ -153,13 +150,13 @@ body { font-family: 'Open Sans', sans-serif; margin:20px; }
 
         <div class="product-card">
             <div class="product-content">
-                <h3>Товар 1</h3>
+                <h3><p>Товар 1</p></h3>
                 <img src="https://avatars.mds.yandex.net/get-mpic/4464754/k_plus_Jw80utP6LTvNgZxVV8Kn/orig" width= 350px; height= 450px>
                 <p>Телескоп- 4600 руб.</p>
                 </div>
             
                 <div class="product-actions">
-                    <button class="button" id="e">Купить</button>
+                    <button class="buttone" id="e">Купить</button>
                     <script>
                     e.onclick=()=>c.innerHTML++
                  </script>
@@ -173,13 +170,13 @@ body { font-family: 'Open Sans', sans-serif; margin:20px; }
 
             <div class="product-card">
                 <div class="product-content">
-                    <h3>Товар 2</h3>
+                    <h3><p>Товар 2</p></h3>
                     <img src="https://avatars.mds.yandex.net/get-mpic/11408907/k_plus_0UO7SwbRmVmQjm2X6QL3/orig" width= 350px; height= 450px>
                     <p>Телескоп-5200 руб.</p>
                 </div>
 
                 <div class="product-actions">
-                <button class="button" id="l">Купить</button>
+                <button class="buttone" id="l">Купить</button>
                 <script>
                     l.onclick=()=>c.innerHTML++
                  </script>
@@ -192,13 +189,13 @@ body { font-family: 'Open Sans', sans-serif; margin:20px; }
 
                 <div class="product-card">
                     <div class="product-content">
-                        <h3>Товар 3</h3>
+                        <h3><p>Товар 3</p></h3>
                         <img src="https://avatars.mds.yandex.net/get-mpic/14917431/2a0000019aa71b09eb8ede7f8869913b3d5d/orig" width= 350px; height= 450p>
                         <p>Телескоп-2700 руб.</p>
                         </div>
 
                         <div class="product-actions">
-                            <button class="button" id="h">Купить</button>
+                            <button class="buttone" id="h">Купить</button>
                              <button class="butto"id="f">Корзина</button>
                              <script>
                                 h.onclick=()=>c.innerHTML++
